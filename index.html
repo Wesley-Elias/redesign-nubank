@@ -11,26 +11,29 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
 
+   <script src="./js/svg-inject.min.js"></script>
    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
    <!-- == == == == Header == == == == -->
    <header id="header">
+      <!-- == == == == navbar mobile == == == == -->
       <nav class="navbar-mobile">
          <div class="bx" id="bx">
 
          </div>
          <div class="logo">
-
+            <a href="./"><img src="./svg/logonu.svg" alt="Logo Nubank" onload="SVGInject(this)"></a>
          </div>
          <a href="./" style="z-index: 800;">Login</a>
       </nav>
 
+      <!-- == == == == navbar desktop == == == == -->
       <nav class="navbar-desktop">
          <div class="navbar-desktop-item-1">
             <div class="logo">
-
+               <a href="./"><img src="./svg/logonu.svg" alt="Logo Nubank" onload="SVGInject(this)"></a>
             </div>
             <ul class="menu-desktop">
                <li class="menu-item" id="menu-item-1">
@@ -62,11 +65,12 @@
             </ul>
          </div>
          <div class="navbar-desktop-item-2">
-            <a href="./" class="btn">Quero ser Nubank</a>
+            <a href="./" class="btn mr-2">Quero ser Nubank</a>
             <a href="./">Login</a>
          </div>
       </nav>
 
+      <!-- == == == == menu mobile == == == == -->
       <nav class="menu-mobile" id="menu-mobile">
          <ul class="nav-list-mobile">
             <li><a href="./" class="nav-link-mobile">Nubank</a></li>
@@ -74,9 +78,18 @@
             <li><a href="./" class="nav-link-mobile">Para você</a></li>
             <li><a href="./" class="nav-link-mobile">Quero ser Nubank</a></li>
             <li><a href="./" class="nav-link-mobile">Redes Sociais</a></li>
+            <li class="mt-3">
+               <a href="./"><img src="./svg/icon-facebook.svg" alt="Logo Nubank" onload="SVGInject(this)"></a>
+               <a href="./"><img src="./svg/icon-youtube.svg" alt="Logo Nubank" onload="SVGInject(this)"></a>
+               <a href="./"><img src="./svg/icon-instagram.svg" alt="Logo Nubank" onload="SVGInject(this)"></a>
+               <a href="./"><img src="./svg/icon-twitter.svg" alt="Logo Nubank" onload="SVGInject(this)"></a>
+            </li>
          </ul>
       </nav>
    </header>
+
+   <!-- == == == == Hero == == == == -->
+
 
 
    <!-- == == == == JS == == == == -->
