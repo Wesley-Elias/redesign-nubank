@@ -324,3 +324,24 @@ $height-card: 0.64 * $width-card;
       fill-opacity: 0.4;
    }
 }
+
+// Section App Nubank
+.fignu4-letter-n, .fignu4-letter-u {
+   animation: fignu4-letter 5s ease infinite alternate;
+   stroke-width: 4;
+   stroke-dasharray: 1 400;
+   stroke-opacity: 0;
+}
+
+@keyframes fignu4-letter {
+   0% {
+      stroke-width: 4;
+      stroke-dasharray: 0 400;
+      stroke-opacity: 1;
+   }
+   60%, 100% {
+      stroke-width: 4;
+      stroke-dasharray: 400 0;
+      stroke-opacity: 1;
+   }
+}
