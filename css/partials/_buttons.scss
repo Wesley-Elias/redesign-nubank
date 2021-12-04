@@ -86,3 +86,11 @@ a {
       }
    }
 }
+
+.link.link-card {
+   &:hover {
+      &::after {
+         width: 54%;
+      }
+   }
+}

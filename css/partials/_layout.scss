@@ -54,7 +54,7 @@ $container-s: 540px;
    align-items: center;
    flex-direction: row;
 
-   overflow: hidden;
+   // overflow: hidden;
 
    @include responsive(s) {
       flex-direction: column;
